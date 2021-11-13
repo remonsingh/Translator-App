@@ -1,0 +1,86 @@
+body {
+    width: 90%;
+    margin: auto;
+    background-image: url("https://img.freepik.com/free-vector/dark-paper-layers-wallpaper-with-golden-details_23-2148403401.jpg?size=626&ext=jpg");
+    background-repeat: repeat;
+}
+
+h1 {
+    color: rgb(120, 109, 192);
+    margin-bottom: 30px;
+}
+
+#container {
+    display: flex;
+    gap: 50px;
+}
+
+#a textarea {
+    width: 540px;
+    height: 250px;
+    padding: 20px;
+    padding: 12px 20px;
+    border-right: none;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+
+#a textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 1.3rem;
+}
+
+#b {
+    width: 540px;
+    height: 248px;
+    border-left: none;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+select {
+    width: 540px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    background-color: #D5D5D5;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+}
+
+#btn {
+    margin-top: 50px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#btn button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #030575;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#btn button:hover {
+    cursor: pointer;
+    background-color: #334756;
+}
+
+#data p {
+    padding: 20px;
+    font-size: 16px;
+}

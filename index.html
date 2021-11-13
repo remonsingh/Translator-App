@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Translate</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>Masai Translator</h1>
+    </div>
+    <div id="container">
+        <div id="a">
+            <textarea id="txtarea" rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+        </div>
+        <div id="b">
+            <select name="lang" id="langs">
+                <option value="en">ENGLISH</option>
+                <option value="ar">ARABIC</option>
+                <option value="zh">CHINESE</option>
+                <option value="fr">FRENCH</option>
+                <option value="de">GERMAN</option>
+                <option value="hi">HINDI</option>
+                <option value="id">INDONESIAN</option>
+                <option value="ga">IRISH</option>
+                <option value="it">ITALIAN</option>
+                <option value="ja">JAPANESE</option>
+                <option value="ko">KOREAN</option>
+                <option value="pl">POLISH</option>
+                <option value="pt">PORTUGUESE</option>
+                <option value="ru">RUSSIAN</option>
+                <option value="es">SPANISH</option>
+                <option value="tr">TURKISH</option>
+                <option value="vi">VIETNAMESE</option>
+            </select>
+            <div id="data"></div>
+        </div>
+    </div>
+    <div id="btn">
+        <button onclick="getData()">TRANSLATE</button>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
